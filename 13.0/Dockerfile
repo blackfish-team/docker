@@ -73,7 +73,7 @@ COPY ./odoo.conf /etc/odoo/
 RUN chown odoo /etc/odoo/odoo.conf \
     && mkdir -p /mnt/extra-addons \
     && chown -R odoo /mnt/extra-addons
-VOLUME ["/var/lib/odoo", "/mnt/extra-addons"]
+VOLUME ["/var/lib/odoo", "/mnt/extra-addons", "/mnt/black-addons"]
 
 # Expose Odoo services
 EXPOSE 8069 8071 8072
