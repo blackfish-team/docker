@@ -1,0 +1,1 @@
+docker run -u 0  -p 8888:3001 -p 8879:8069 --name odoo-dev --link db:db -t odoo-dev /usr/bin/python3 -m debugpy --listen 0.0.0.0:3001 /usr/bin/odoo --db_user=odoo --db_host=db --db_password=odoo
