@@ -1,5 +1,5 @@
 FROM debian:buster-slim
-MAINTAINER Odoo S.A. <info@odoo.com>
+LABEL maintainer="Blackfish <info@blackfishweb.com>"
 
 SHELL ["/bin/bash", "-xo", "pipefail", "-c"]
 
