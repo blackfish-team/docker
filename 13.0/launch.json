@@ -8,7 +8,7 @@
             "name": "Python: Remote Attach",
             "type": "python",
             "request": "attach",
-            "port": 8879,
+            "port": 8069,
             "debugServer": 8888,
             "host": "localhost",
             "justMyCode": false,
